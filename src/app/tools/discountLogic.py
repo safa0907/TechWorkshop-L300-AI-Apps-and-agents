@@ -25,7 +25,7 @@ os.environ["AZURE_TRACING_GEN_AI_CONTENT_RECORDING_ENABLED"] = "true"
 
 # scenario = os.path.basename(__file__)
 # tracer = trace.get_tracer(__name__)
-
+#
 #Azure OpenAI
 endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
 deployment = os.getenv("gpt_deployment")
